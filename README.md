@@ -1,4 +1,4 @@
-last : 51:00
+last : 1:55:00
 
 tailwindcss form
 npm install @tailwindcss/forms
