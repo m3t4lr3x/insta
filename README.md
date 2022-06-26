@@ -13,3 +13,8 @@ Pravatar.cc = avatar
 
 
 tailwind-scrollbar
+
+https://next-auth.js.org => set login providers
+
+Firebase => create new project
+Cloud.google.com => credential
