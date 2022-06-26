@@ -25,7 +25,7 @@ export default NextAuth({
 //   secret: process.env.NEXTAUTH_SECRET,
 
   pages:{
-    signin: "/auth/signin"
+    signIn: "/auth/signin"
   }
 
 })
