@@ -1,12 +1,19 @@
 import { useRecoilState } from 'recoil'
 import { modalState } from '../atom/modalAtom'
+import Modal from "react-modal"
 
 export default function UploadModal() {
-    const [open, setopen] = useRecoilState(modalState)
+    const [open, setOpen] = useRecoilState(modalState)
     return (
         <div>
-            <h1>Upload Modal</h1>
-            {open && <h1>The Modal is open</h1>}
+            {open && (
+                <Modal
+                    isOpen={open}
+                    onRequestClose={() => setOpen(false)}
+                >
+                    <h1>Modal</h1>
+                </Modal>
+            )}
         </div>
     )
 }

@@ -19,5 +19,8 @@ https://next-auth.js.org => set login providers
 Firebase => create new project
 Cloud.google.com => credential
 
-Recoil
+Recoil, ATOM
+
+React-modal-npm
+npm install --save react-modal
 
