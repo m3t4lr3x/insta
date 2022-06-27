@@ -23,8 +23,8 @@ export default function Suggestions() {
             <h3 className='font-bold text-gray-400'>Suggestion for you</h3>
             <button className='text-gray-600 font-semibold'>See all</button>
         </div>
-        {suggestions.map((suggestion, index) => (
-            <div key={index} className='flex items-center justify-between mt-3'>
+        {suggestions.map((suggestion) => (
+            <div key={suggestion.id} className='flex items-center justify-between mt-3'>
                 <img
                     className='h-10 rounded-full border p-[2px]'
                     src={`https://i.pravatar.cc/150?img=${Math.ceil(Math.random() * 70)}`}
