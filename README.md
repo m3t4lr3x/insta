@@ -24,3 +24,7 @@ Recoil, ATOM
 React-modal-npm
 npm install --save react-modal
 
+8:12:00
+react-moment
+npm install -- save moment react-moment
+
